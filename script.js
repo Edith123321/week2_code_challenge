@@ -6,8 +6,12 @@ document.querySelector("#addBtn").onclick = function() {
         document.querySelector('#items').innerHTML += 
         `
         <div class = "item"> 
-            <span id= "item-name"> </span>
-            ${document.querySelector("#new-item input").value}
+            <span id= "item-name">
+            ${document.querySelector("#new-item input").value} 
+            </span>
+            <button class = "delete">
+             <i class="fa fa-trash"></i>
+            </button>
         </div>
         `
      }

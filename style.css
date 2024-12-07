@@ -51,7 +51,7 @@ body {
     position: relative;
     font-family: 'Parkinsans';
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     background-color: #21D4FD;
     border: none;
     border-radius: 5px;
@@ -67,8 +67,34 @@ body {
     margin-top: 60px;
     border-radius: 10px ;
     box-shadow: 0 15px 20px gray;
-    width: 100%;
+    width: 94%;
     position: relative;
-    
 
+
+}
+.item {
+    background-color: #ffffff;
+    position: relative;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4 ;
+    cursor: pointer;
+}
+.item span {
+    font-family: "Parkinsans", sans-serif;
+}
+
+.item button {
+    color: #ffffff;
+    background-color: #21D4FD;
+    height: 100%;
+    width: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
 }
