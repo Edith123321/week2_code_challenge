@@ -29,6 +29,6 @@ document.querySelector("#addBtn").onclick = function() {
             }
         }
 
-        document.querySelector("#new-item input")
+        document.querySelector("#new-item input").value = "";
      }
 }
