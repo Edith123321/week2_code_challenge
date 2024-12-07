@@ -21,5 +21,12 @@ document.querySelector("#addBtn").onclick = function() {
                 this.parentNode.remove();
             }
         }
+
+        var items = document.querySelectorAll(".items");
+        for(var i=0; i<items.length; i++) {
+            items[i].onclick = function() {
+                this.classList.toggle(".bought");
+            }
+        }
      }
 }
