@@ -13,6 +13,13 @@ document.querySelector("#addBtn").onclick = function() {
              <i class="fa fa-trash"></i>
             </button>
         </div>
-        `
+        `;
+
+        var current_items = document.querySelectorAll(".delete");
+        for(var i=0; i<current_items.length; i++) {
+            current_items[i].onclick = function(){
+                this.parentNode.remove();
+            }
+        }
      }
 }
