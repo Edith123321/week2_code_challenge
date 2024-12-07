@@ -99,3 +99,7 @@ body {
     cursor: pointer;
 }
 
+.bought {
+    text-decoration: line-through;
+    color: gray;
+}

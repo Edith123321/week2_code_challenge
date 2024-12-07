@@ -22,11 +22,13 @@ document.querySelector("#addBtn").onclick = function() {
             }
         }
 
-        var items = document.querySelectorAll(".items");
+        var items = document.querySelectorAll(".item");
         for(var i=0; i<items.length; i++) {
             items[i].onclick = function() {
-                this.classList.toggle(".bought");
+                this.classList.toggle('bought');
             }
         }
+
+        document.querySelector("#new-item input")
      }
 }
