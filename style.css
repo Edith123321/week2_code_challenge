@@ -29,11 +29,36 @@ body {
 #new-item input {
     position: relative;
     width: 70%;
-    height: 45px;
+    height: 40px;
     font-family: 'Parkinsans', sans-serif;
     font-size: 15px;
     border: 2px solid #B721FF;
     padding: 12px;
     color: #111111;
     font-weight: 500;
+    border-radius: 5px;
 }
+
+#new-task input:focus {
+    outline: none;
+    border-color: #21D4FD;
+}
+
+#new-item button {
+    width: 20%;
+    height: 60px;
+    float: right;
+    position: relative;
+    font-family: 'Parkinsans';
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #21D4FD;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+
+
+}
+
+
