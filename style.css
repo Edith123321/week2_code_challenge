@@ -1,105 +1,88 @@
+/* Body background with gradient effect */
 body {
-    background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-
-
+    background-color: #21D4FD; /
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); 
 }
 
+/* Container settings to center the content */
 .container {
-    border: 2px solid #ffffff;
-    width: 40%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    border: 2px solid #ffffff; 
+    width: 40%; 
+    position: absolute; 
+    transform: translate(-50%, -50%); 
     top: 40%;
-    left: 50%;
-    min-width: 450px;
-    padding: 30px 40px;
-
+    left: 50%; 
+    min-width: 450px; 
+    padding: 30px 40px; 
 }
 
+/* Styling for the new item input and button */
 #new-item {
     position: relative;
-    background-color: #ffffff;
-    padding: 30px 20px;
-    border-radius: 5px;
-    box-shadow: 0 15px 30px gray;
-
+    background-color: #ffffff; 
+    padding: 30px 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 15px 30px gray; 
 }
 
+/* Input field styling */
 #new-item input {
-    position: relative;
-    width: 70%;
+    width: 70%; 
     height: 40px;
     font-family: 'Parkinsans', sans-serif;
-    font-size: 15px;
-    border: 2px solid #B721FF;
-    padding: 12px;
-    color: #111111;
-    font-weight: 500;
-    border-radius: 5px;
+    border: 2px solid #B721FF; 
+    padding: 12px; 
+    border-radius: 5px; 
 }
 
-#new-task input:focus {
-    outline: none;
+/* Focus effect for input field */
+#new-item input:focus {
+    outline: none; 
     border-color: #21D4FD;
 }
 
+/* Button styling for adding items */
 #new-item button {
-    width: 20%;
+    width: 20%; 
     height: 60px;
-    float: right;
-    position: relative;
-    font-family: 'Parkinsans';
-    font-weight: 600;
-    font-size: 20px;
-    background-color: #21D4FD;
-    border: none;
+    background-color: #21D4FD; 
     border-radius: 5px;
     color: #ffffff;
-    cursor: pointer;
-
-
+    cursor: pointer; 
 }
 
+/* Styling for items in the list */
 #items {
-    background-color: #ffffff;
+    background-color: #ffffff; 
     padding: 30px 20px;
-    margin-top: 60px;
-    border-radius: 10px ;
+    margin-top: 60px; 
+    border-radius: 10px; 
     box-shadow: 0 15px 20px gray;
-    width: 94%;
-    position: relative;
-
-
 }
+
+/* Individual item styling */
 .item {
-    background-color: #ffffff;
-    position: relative;
-    height: 50px;
+    background-color: #ffffff; 
+    height: 50px; 
     padding: 5px 10px;
-    margin-top: 10px;
-    align-items: center;
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid #d1d3d4 ;
+    border-bottom: 2px solid #d1d3d4; 
     cursor: pointer;
 }
-.item span {
-    font-family: "Parkinsans", sans-serif;
-}
 
+/* Button inside each item */
 .item button {
+    background-color: #21D4FD; 
     color: #ffffff;
-    background-color: #21D4FD;
-    height: 100%;
-    width: 40px;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-    cursor: pointer;
+    width: 40px; 
+    height: 100%; 
+    border-radius: 5px; 
+    cursor: pointer; 
 }
 
+/* Strikethrough styling for bought items */
 .bought {
-    text-decoration: line-through;
-    color: gray;
+    text-decoration: line-through; 
+    color: gray; 
 }
