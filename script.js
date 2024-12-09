@@ -28,6 +28,11 @@ document.querySelector("#addBtn").onclick = function() {
                 this.classList.toggle('bought');
             }
         }
+        // Add functionality to clear all items in the list
+         document.querySelector("#clearBtn").onclick = function() {
+         // Clear the entire items container
+          document.querySelector("#items").innerHTML = "";
+         }
 
         document.querySelector("#new-item input").value = "";
      }
