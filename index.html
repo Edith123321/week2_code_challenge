@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tag for character encoding -->
     <meta charset="UTF-8">
+    <!-- Meta tag for responsive design (scalable on mobile devices) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage shown on the browser tab -->
     <title>Week two code challenge</title>
+
+    <!-- Linking external CSS stylesheet for styling the page -->
     <link rel="stylesheet" href="style.css">
     
+    <!-- Preconnect to Google Fonts to optimize font loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Linking Google Fonts (Parkinsans and Roboto) for use in the page -->
     <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
+    <!-- Linking Font Awesome for icon usage in the page -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     
-    </head>
+</head>
 <body>
+    <!-- Main container for the webpage -->
     <div class="container">
+      
+      <!-- Section for adding new items to the list -->
       <div id="new-item">
+        <!-- Input field where the user can type a new item -->
         <input type="text" placeholder="Enter New Item...">
+        <!-- Button to add the typed item to the list -->
         <button id="addBtn">Add</button>
       </div>
-      <div id="items">
 
+      <!-- Section where the list of items will be displayed -->
+      <div id="items">
+        <!-- Empty initially, will be populated dynamically -->
       </div>
     </div>
 
-  <script src="script.js"></script>  
+    <!-- Linking external JavaScript file for the interactive functionality -->
+    <script src="script.js"></script>  
 </body>
 </html>
