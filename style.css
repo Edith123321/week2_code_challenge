@@ -86,3 +86,21 @@ body {
     text-decoration: line-through; 
     color: gray; 
 }
+/* Styling for the 'Clear All' button */
+#clearBtn {
+    width: 20%; 
+    height: 60px; 
+    font-family: 'Parkinsans'; 
+    font-weight: 600; 
+    font-size: 20px; 
+    background-color: #21D4FD; 
+    border: none; 
+    border-radius: 5px; 
+    color: #ffffff; 
+    cursor: pointer; 
+    margin-top: 20px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
