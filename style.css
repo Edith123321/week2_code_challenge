@@ -13,7 +13,9 @@ body {
     top: 40%;
     left: 50%; 
     min-width: 450px; 
-    padding: 30px 40px; 
+    padding: 30px 40px;
+    overflow-y: scroll;
+    height: 480px;
 }
 
 /* Styling for the new item input and button */
