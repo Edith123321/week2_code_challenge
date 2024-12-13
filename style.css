@@ -60,6 +60,7 @@ body {
     margin-top: 60px; 
     border-radius: 10px; 
     box-shadow: 0 15px 20px gray;
+    overflow-y: scroll;
 }
 
 /* Individual item styling */
